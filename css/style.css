@@ -491,7 +491,12 @@ a.navbar-brand img {
 .active{
     color:#838bb5!important;
 }
-
+a.hotel_page_card {
+    transition: .3s ease-in-out;
+}
+a.hotel_page_card:hover {
+    opacity: 0.8;
+}
 
 
 
