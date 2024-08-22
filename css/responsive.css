@@ -1,0 +1,20 @@
+@media screen and (max-width:1199px)
+{
+    li.nav-item .nav-link {
+        font-size: 15px;
+    }
+ }
+
+ @media screen and (max-width:991px){
+    a.navbar-brand img {
+        max-width: 240px;
+    }
+    .logo_footer img {
+        width: 240px;
+    }
+    .padding {
+        padding: 50px 0;
+    }
+ }
+
+ 

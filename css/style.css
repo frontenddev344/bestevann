@@ -1,0 +1,490 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.padding {
+    padding: 70px 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Cormorant Garamond", serif;
+
+}
+
+
+.hotel_page_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/urban_hotel.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hotel_page_card::before {
+    position: absolute;
+    content: '';
+    background-color: #00000085;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.hotel_page_card h3{
+    color: #fff;
+
+}
+.hotel_page_card.h2 {
+    background-image: url(../images/rural_hotel.jpg);
+
+}
+
+.hotel_page_card.h3 {
+    background-image: url(../images/casino_hotel.jpg);
+
+}
+
+.hotel_page_card.h4 {
+    background-image: url(../images/unique_hotel.jpg);
+
+}
+
+.hotel_page_card.h5 {
+    background-image: url(../images/contact_us.avif);
+
+}
+
+.button_read_more a {
+    font-size: 16px;
+    background: #161c3c;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+}
+.button_read_more a:hover{
+
+    background: transparent;
+    color: #161c3c;
+    border: 1px solid #161c3c;
+}
+
+.button_read_more a span {
+    margin-left: 5px;
+}
+.left_side_banner_section p {
+    font-size: 17px;
+}
+
+/* Subscribe design */
+
+
+.sign_up .Signup__text {
+    text-align: center;
+    margin: 0 auto 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6d6d6d;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 90%;
+}
+
+.sign_up .Signup__form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 540px) {
+    .sign_up .Signup__form {
+        display: block;
+    }
+}
+
+.sign_up input {
+    border: 2px solid #6d6d6d;
+    border-radius: 3px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+    color: #6d6d6d;
+    transition: border 0.3s, box-shadow 0.3s;
+    width: 90%;
+    max-width: 300px;
+}
+
+@media (max-width: 540px) {
+    .sign_up input {
+        display: block;
+        margin: 0 auto 25px;
+    }
+}
+
+.sign_up input:focus {
+    outline: none;
+    border: 2px solid #db4646;
+    box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+.sign_up .Signup__button {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background: #db4646;
+    border: 2px solid #db4646;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+
+.sign_up .Signup__button {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 40px;
+}
+
+@media (max-width: 540px) {
+    .sign_up .Signup__button {
+        display: block;
+        margin: 0 auto 50px;
+        padding: 15px 40px;
+    }
+}
+
+.sign_up .Signup__button:hover {
+    background: #df5959;
+    border-color: #df5959;
+}
+
+.sign_up .Signup__button:active {
+    cursor: pointer;
+    background: #d62e2e;
+    border-color: #d62e2e;
+}
+
+.sign_up .Signup__button:focus {
+    outline: none;
+}
+
+.sign_up {
+    background: whitesmoke;
+}
+
+
+
+/* Subscribe design end */
+
+
+.accordion-button::after {
+    background-image:url(../images/plus.png)!important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url(../images/minus.png)!important;
+}
+
+:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #fff!important;
+    background-color: #838bb5!important;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    background: #838bb5!important;
+    color: #fff!important;
+    font-size: 22px;
+}
+
+
+.columnb_2 ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 30px;
+}
+.columnb_2 ul li {
+    margin-bottom: 10px;
+}
+.columnb_2 ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.4s;
+}
+.columnb_2 ul li a:hover {
+    color: #838bb5;
+    margin-left: 3px;
+}
+.columnb_2 ul li a img {
+    margin-right: 10px;
+}
+li.nav-item .nav-link:hover{
+    color: #838bb5;  
+}
+.column_4 p {
+    color: #000;
+}
+.social_icon ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+.social_icon ul li a {
+    background: #ebebeb;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #8080807d;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+.social_icon ul li a:hover {
+    background: #838bb5;
+    color: #fff;
+    border: transparent;
+}
+footer {
+    padding-top: 120px!important;
+    background: #161c3c;
+}
+
+.para_call p:last-child a {
+    color: #000;
+    text-decoration: unset;
+}
+.banner.city_hotel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url(../images/city_hotels_bg.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+.banner::before {
+    position: absolute;
+    content: '';
+    background-color: #0009;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.inner_content {
+    color: #fff;
+}
+
+.right_side_hotel img {
+    width: 30px;
+}
+.banner.country_hotel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url(../images/country_hotel_bg.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+.banner.casino_hotel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url(../images/casino_hotels_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+.banner.unique_hotel_bg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url(../images/unique_hotel_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+.blog_post_wrapper {
+    margin: 20px 0px;
+}
+.blog_post_wrapper ul li {
+    margin-bottom: 8px;
+}
+
+
+
+header {
+    top: 0;
+    position: sticky;
+    padding: 10px 0;
+    background: #161c3c;
+    z-index: 999;
+}
+
+
+
+
+
+li.nav-item .nav-link {
+    color: #fff;
+    transition: all 0.4s;
+    font-size: 17px;
+}
+a.navbar-brand img {
+    max-width: 300px;
+}
+.columnb_2 {
+    color: #fff;
+}
+.columnb_2 ul li a {
+    color: #fff;
+}
+.column_4 {
+    color: #fff;
+}
+.logo_footer {
+    margin: 25px 0;
+}
+.logo_footer img {
+    width: 300px;
+}
+
+.columnb_2 ul li a img {
+    width: 20px;
+    filter: invert(1);
+}
+
+.right_side_hotel a {
+    font-size: 16px;
+    background: #161c3c;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+}
+.right_side_hotel a:hover {
+    background: transparent;
+    color: #161c3c;
+    border: 1px solid #161c3c;
+}
+.left_side_hotel img {
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+	margin-left: 40px;
+	transform: scale(1.5);
+	transition: .3s ease-in-out;
+}
+.left_side_hotel {
+    overflow: hidden;
+}
+.left_side_hotel img:hover {
+    margin-left: 0;
+}
+.hotelsall_section h3 {
+    font-size: 36px;
+}
+.accordion-button {
+    font-size: 22px!important;
+
+}
+.inner_content h2 {
+    font-size: 50px;
+}
+.right_side_hotel {
+    background: #838bb587 !important;
+    padding: 20px;
+}
+.blog_image img {
+    object-fit: cover;
+    height: 430px;
+    width: 100%;
+    border-radius: 0px;
+}
+.blog_card p {
+    padding: 20px;
+}
+.blog_card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 100%;
+}
+.form_cls label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.right_contact .form_cls {
+    margin-bottom: 30px;
+}
+.right_contact {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 25px;
+}
+
+.form-control {
+    border-radius: 0!important;
+}
+.right_contact a.button {
+    font-size: 16px;
+    background: #161c3c;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+}
+.right_contact a.button:hover{
+    background: transparent;
+    color: #161c3c;
+    border: 1px solid #161c3c;
+}
+.navbar-toggler {
+    filter: invert(1);
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
