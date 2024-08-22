@@ -488,3 +488,6 @@ a.navbar-brand img {
     box-shadow: none!important;
 }
 
+.active{
+    color:#838bb5;
+}
