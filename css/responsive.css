@@ -15,6 +15,9 @@
     .padding {
         padding: 50px 0;
     }
+    .logo_footer{
+        display: none;
+    }
  }
 
  

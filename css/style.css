@@ -524,7 +524,9 @@ a.hotel_page_card {
 a.hotel_page_card:hover {
     opacity: 0.8;
 }
-
+.logo_footer.mob_logo {
+    margin-bottom: 50px;
+}
 /* 
 
 .for_hotels_bg {
