@@ -550,4 +550,65 @@ a.hotel_page_card:hover {
     left: 0;
 } */
 
+#cookie-popup {
+    position: fixed;
+    z-index: 9999;
+    right: 30px;
+    bottom: 30px;
+    max-width: 370px;
+    padding: 20px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgb(0 0 0 / 93%);
+    color: #eee;
+    text-align: center;
+  }
+  
+  #cookie-popup p:first-child {
+    margin: 0;
+    color: #eee;
+    font-weight: 900;
+    color: #161c3c;
+  }
+  
+  #cookie-popup p:nth-child(2) {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+  
+  #cookie-popup .link {
+    color: #161c3c;
+    text-decoration: none;
+  }
+  
+  #cookie-popup button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+   
+    padding: 8px 0;
+    
+    color: #fff;
+    background-color: #161c3c;
+    
+   
+  }
+  
+  #cookie-popup button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    #cookie-popup {
+      max-width: 95%;
+      right: 0;
+      bottom: 20px;
+      left: 0;
+      margin: 0 auto;
+    }
+  }
+  
+
 

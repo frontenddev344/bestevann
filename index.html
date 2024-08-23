@@ -336,8 +336,30 @@
   </footer>
 
 
+  <div id="cookie-popup">
+
+    <p></p>
+    <p>Ez a weboldal cookie-kat használ, hogy a lehető legjobb élményt nyújtsa Önnek. A cookie-k
+      segítenek a közösségi média funkciók biztosításában, a forgalom elemzésében és
+      szolgáltatásaink fejlesztésében. Az oldal további használatával Ön hozzájárul a cookie-k
+      alkalmazásához.</p>
+        
+        <!-- <br><a href="#" class="link">More &rarr;</a> -->
+    
+    <button class="cookie-popup__button">Cookie-k elfogadása</button>
+  </div>
+
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+  $("#cookie-popup button").click(function() {
+    $("#cookie-popup").fadeOut();
+  });
+</script>
+
 </body>
 
 </html>
