@@ -475,6 +475,7 @@ a.navbar-brand img {
 
 .right_contact .form_cls {
     margin-bottom: 30px;
+    text-transform: capitalize;
 }
 .right_contact {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
