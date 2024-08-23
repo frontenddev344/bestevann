@@ -204,11 +204,12 @@ h1, h2, h3, h4, h5, h6{
     color: #fff!important;
     background-color: #838bb5!important;
 }
-.accordion-item:first-of-type>.accordion-header .accordion-button {
+
+/* .accordion-item:first-of-type>.accordion-header .accordion-button {
     background: #838bb5!important;
     color: #fff!important;
     font-size: 22px;
-}
+} */
 
 
 .columnb_2 ul {
