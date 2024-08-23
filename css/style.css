@@ -387,12 +387,14 @@ a.navbar-brand img {
     color: #fff;
 }
 .logo_footer {
-    margin: 25px 0;
+    margin-bottom: 25px;
 }
 .logo_footer img {
     width: 300px;
 }
-
+.column_4 h4 {
+    margin-bottom: 15px;
+}
 .columnb_2 ul li a img {
     width: 20px;
     filter: invert(1);
