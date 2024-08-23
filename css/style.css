@@ -528,27 +528,6 @@ a.hotel_page_card:hover {
 .logo_footer.mob_logo {
     margin-bottom: 50px;
 }
-/* 
-
-.for_hotels_bg {
-    background-image: url(../images/ocean_image_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    position: relative;
-}
-
-.for_hotels_bg::before{
-    position: absolute;
-    content: '';
-    background-color: #00000094;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top: 0;
-    left: 0;
-} */
 
 #cookie-popup {
     position: fixed;
