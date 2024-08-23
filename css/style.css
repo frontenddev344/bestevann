@@ -297,7 +297,22 @@ footer {
 
 .right_side_hotel img {
     width: 30px;
+ 
 }
+.right_side_hotel .money_price img{
+    animation: animName 3s linear infinite;
+}
+
+@keyframes animName {
+    0%{
+       transform: rotateX(0deg);
+      }
+   100%{
+       transform: rotateX(360deg);
+      }
+   }
+
+   
 .banner.country_hotel{
     display: flex;
     align-items: center;
@@ -426,8 +441,9 @@ a.navbar-brand img {
     font-size: 50px;
 }
 .right_side_hotel {
-    background: #838bb587 !important;
+    background: #838bb5cc !important;
     padding: 20px;
+    color: #fff;
 }
 .blog_image img {
     object-fit: cover;
@@ -506,10 +522,26 @@ a.hotel_page_card:hover {
     opacity: 0.8;
 }
 
+/* 
 
+.for_hotels_bg {
+    background-image: url(../images/ocean_image_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    position: relative;
+}
 
-
-
-
+.for_hotels_bg::before{
+    position: absolute;
+    content: '';
+    background-color: #00000094;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+} */
 
 
