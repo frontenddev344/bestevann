@@ -21,6 +21,9 @@
     .logo_footer{
         display: none;
     }
+    .home_page_blog_post .overlay {
+        top: 30px;
+    }
  }
 
  
