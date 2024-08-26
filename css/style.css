@@ -639,7 +639,7 @@ font-size: 32px;
 
 .home_page_blog_post img {
 	max-width: 100%;
-
+  height: 100%;
 	display: block;
 }
 
