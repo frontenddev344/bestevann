@@ -590,3 +590,25 @@ a.hotel_page_card:hover {
   }
   
 
+
+
+.hidden {
+	display: none;
+}
+
+.showing {
+	display: block;
+	margin-top: 20px;
+}
+a.clickme{
+    background: unset;
+    text-decoration: underline;
+    border: unset;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+a.clickme:hover{
+    background: unset;
+    text-decoration: underline;
+    border: unset;
+}
