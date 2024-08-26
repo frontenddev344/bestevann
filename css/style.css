@@ -612,3 +612,6 @@ a.clickme:hover{
     text-decoration: underline;
     border: unset;
 }
+.austria_hotels_section .row {
+    align-items: unset!important;
+}
