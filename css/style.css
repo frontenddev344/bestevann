@@ -462,13 +462,13 @@ a.navbar-brand img {
 .blog_image{
     overflow: hidden;
 }
-.blog_card p {
+/* .blog_card p {
     padding: 20px;
-}
-.blog_card {
+} */
+/* .blog_card {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     height: 100%;
-}
+} */
 .form_cls label {
     font-size: 18px;
     margin-bottom: 5px;
