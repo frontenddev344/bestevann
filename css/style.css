@@ -601,17 +601,9 @@ a.hotel_page_card:hover {
 	margin-top: 20px;
 }
 a.clickme{
-    background: unset;
-    text-decoration: underline;
-    border: unset;
     cursor: pointer;
-    text-transform: capitalize;
 }
-a.clickme:hover{
-    background: unset;
-    text-decoration: underline;
-    border: unset;
-}
+
 .austria_hotels_section .row {
     align-items: unset!important;
 }
