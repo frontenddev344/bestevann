@@ -3,6 +3,9 @@
     li.nav-item .nav-link {
         font-size: 15px;
     }
+    a.navbar-brand img {
+        max-width: 260px;
+    }
  }
 
  @media screen and (max-width:991px){
