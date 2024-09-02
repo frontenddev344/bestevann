@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
     width: 100%;
     height: 400px;
-    background-image: url(../images/urban_hotel.webp);
+    background-image: url(../images/cs5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -44,12 +44,12 @@ h1, h2, h3, h4, h5, h6{
 
 }
 .hotel_page_card.h2 {
-    background-image: url(../images/rural_hotel.jpg);
+    background-image: url(../images/co3.jpg);
 
 }
 
 .hotel_page_card.h3 {
-    background-image: url(../images/casino_hotel.jpg);
+    background-image: url(../images/ch1.jpg);
 
 }
 
