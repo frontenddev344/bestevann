@@ -62,7 +62,18 @@ h1, h2, h3, h4, h5, h6{
     background-image: url(../images/contact_us.avif);
 
 }
+.hotel_page_card.h11 {
+    background-image: url(../images/hotel_marmara.jpg);
 
+}
+.hotel_page_card.h22 {
+    background-image: url(../images/balaton_hotel.jpg);
+
+}
+.hotel_page_card.h33 {
+    background-image: url(../images/hotel_gallert.jpg);
+
+}
 .button_read_more a {
     font-size: 16px;
     background: #161c3c;
