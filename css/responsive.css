@@ -10,10 +10,10 @@
 
  @media screen and (max-width:991px){
     a.navbar-brand img {
-        max-width: 240px;
+        max-width: 200px;
     }
     .logo_footer img {
-        width: 240px;
+        width: 200px;
     }
     .padding {
         padding: 50px 0;
