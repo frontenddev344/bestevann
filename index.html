@@ -435,19 +435,21 @@
     </div>
   </footer>
 
+<!-- cookies popup start -->
+<div class="cookies-wrap">
+  <div class="wrapper">
 
-  <div id="cookie-popup">
+    <div class="data">
+      <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+    </div>
 
-    <p></p>
-    <p>Ez a weboldal cookie-kat használ, hogy a lehető legjobb élményt nyújtsa Önnek. A cookie-k
-      segítenek a közösségi média funkciók biztosításában, a forgalom elemzésében és
-      szolgáltatásaink fejlesztésében. Az oldal további használatával Ön hozzájárul a cookie-k
-      alkalmazásához.</p>
-
-    <!-- <br><a href="#" class="link">More &rarr;</a> -->
-
-    <button class="cookie-popup__button">Cookie-k elfogadása</button>
+    <div class="buttons">
+      <button class="button" id="acceptBtn">Accept</button>
+      <button class="button" id="declineBtn">Decline</button>
+    </div>
   </div>
+</div>
+<!-- cookies popup end -->
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -456,11 +458,7 @@
 
 
 
-  <script>
-    $("#cookie-popup button").click(function () {
-      $("#cookie-popup").fadeOut();
-    });
-  </script>
+
 
 </body>
 
