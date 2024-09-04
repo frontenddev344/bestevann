@@ -1,5 +1,11 @@
-jQuery(document).ready(function($){
-    $('.clickme').click(function(){
-        $(this).closest('div').find('.hidden').toggleClass('showing');
-    });
-});
+$('.moreless-button').click(function() {
+    var $this = $(this);
+    var $moreText = $this.closest('.right_side_hotel').find('.moretext');
+  
+    $moreText.slideToggle();
+    if ($this.text() == "Olvass kevesebbet") {
+      $this.text("Olvass tovább");
+    } else {
+      $this.text("Olvass kevesebbet");
+    }
+  });

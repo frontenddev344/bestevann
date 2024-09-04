@@ -308,11 +308,11 @@ footer {
 }
 
 .right_side_hotel img {
-    width: 30px;
+    width: 25px;
  
 }
 .right_side_hotel .money_price img{
-    animation: animName 3s linear infinite;
+    /* animation: animName 3s linear infinite; */
 }
 
 @keyframes animName {
@@ -440,6 +440,7 @@ a.navbar-brand img {
 }
 .left_side_hotel {
     overflow: hidden;
+    height: 100%;
 }
 .left_side_hotel img:hover {
     margin-left: 0;
@@ -603,10 +604,12 @@ a.hotel_page_card:hover {
 
 
 
-.hidden {
+.moretext {
 	display: none;
 }
-
+section.hidden.moretext {
+    padding-top: 15px;
+}
 .showing {
 	display: block;
 	margin-top: 20px;
@@ -717,7 +720,7 @@ font-size: 32px;
 	transform: translateY(0);
 }
 .navbar-toggler-icon {
-    background-image:url(../images/hambur_icon.png)!important;
+    /* background-image:url(../images/hambur_icon.png)!important; */
 }
 .disclaimer {
     background: whitesmoke;
@@ -782,5 +785,7 @@ font-size: 32px;
     background-color: #161c3c;
     color: #fff;
   }
-
+  .bnr-btm-txt {
+    text-align: center;
+}
 /* cookies popup css end */

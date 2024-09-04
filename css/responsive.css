@@ -25,6 +25,11 @@
         top: 30px;
     }
  }
+ @media(max-width:1100px){
+    li.nav-item .nav-link {
+        font-size: 13px;
+    }
+ }
 @media(max-width:575px){
     .wrapper {
         max-width: 90%;
