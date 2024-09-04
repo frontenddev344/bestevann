@@ -25,5 +25,9 @@
         top: 30px;
     }
  }
-
+@media(max-width:575px){
+    .wrapper {
+        max-width: 90%;
+    }
+}
  
