@@ -24,6 +24,17 @@
     .home_page_blog_post .overlay {
         top: 30px;
     }
+    div#navbarSupportedContent {
+        position: absolute;
+        background: #4a5383;
+        width: 100%;
+        top: 75px;
+        left: 0;
+    }
+    div#navbarSupportedContent ul{
+        padding: 20px;
+
+    }
  }
  @media(max-width:1100px){
     li.nav-item .nav-link {
